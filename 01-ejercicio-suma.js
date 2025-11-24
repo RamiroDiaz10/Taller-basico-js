@@ -1,3 +1,6 @@
+// 1. Escribe un programa que pida al usuario ingresar un número, 
+// luego pide un segundo número e imprime en la consola la suma de los dos números ingresados.
+
 let sum1 = parseInt(prompt("Ingrese un numero: "));
 let sum2 = parseInt(prompt("Ingrese otro numero: "));
 
