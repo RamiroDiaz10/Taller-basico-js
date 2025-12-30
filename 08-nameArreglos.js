@@ -19,3 +19,16 @@
 //         Diana
 //         Camilo
 //     ```
+
+let endName = prompt( `ingrese un nombre` );
+let thirdName = prompt( `ingrese otro nombre` );
+
+
+const names = ["Pedro", "Pablo", "María", "Juan", "Diana"];
+
+names.push(endName);
+names.splice( 2,1, thirdName);
+
+for( const nombre of names){
+    console.log(nombre);
+}

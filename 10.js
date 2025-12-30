@@ -18,3 +18,11 @@
 
 //     NOTA: este ejercicio lo debes hacer con ciclos y sin ayuda de la función filter de JavaScript. Al terminarlo cambia el arreglo original para verificar que funcione con otros números.
 
+const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 39];
+     // escribe tu código acá
+
+ for( i = 1; i < nums.length; i++ ){
+    if( nums[i] > 10 ){
+        console.log(nums[i]);
+    }
+ }    

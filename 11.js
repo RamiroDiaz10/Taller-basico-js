@@ -11,3 +11,18 @@
 //     NOTA: este ejercicio lo debes hacer con ciclos y sin ayuda de la función filter de JavaScript.
 //      Al terminarlo, cambia el 
 //     arreglo original para verificar que funcione con otras combinaciones de ceros y unos.
+
+const nums = [ 2, 0, 2, 2, 2, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1 ];
+let resultado = [];
+
+for( let num of  nums ){
+    if ( num === 2 ){
+    resultado.push(num);
+       
+    } 
+};
+console.log(resultado.length);
+
+
+
+
